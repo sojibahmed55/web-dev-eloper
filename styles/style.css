@@ -225,6 +225,9 @@ main{
 }
 
 /* donate section style */
+.donate-section{
+  margin-bottom: 80px;
+}
 .section-heading-center{
   font-size: 40px;
   font-weight: bold;
@@ -239,7 +242,6 @@ main{
   display: flex;
   justify-content: space-between;
   gap: 24px;
-  margin-bottom: 80px;
 }
 .donate-card{
   width: 100%;
@@ -255,4 +257,20 @@ main{
 }
 .donate-card:hover{
   background-color: #C6E4D6;
+}
+.donate-amount{
+ color: #0e0e0e30;
+ padding: 24px; 
+ margin-top: 32px;
+ text-align: center;
+ background-color: white;
+ border-bottom: 1px solid #0e0e0e15;
+}
+.donate-now-btn{
+  text-align: center;
+}
+
+/* footer start here */
+footer hr{
+  border-top: 1px solid #0e0e0e15;
 }
